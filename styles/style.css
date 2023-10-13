@@ -31,11 +31,11 @@ body {
   cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
-  margin: 0 10px;
+  margin: 0 0.625rem;
   display: flex;
   align-items: flex-end;
   transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
-  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0.625rem 1.875rem -0.3125rem rgba(0, 0, 0, 0.8);
 }
 
 .card > .row {
@@ -48,11 +48,11 @@ body {
   background: #223;
   color: white;
   border-radius: 50%;
-  width: 50px;
+  width: 3.125rem;
   display: flex;
   justify-content: center;
   align-items: centeR;
-  margin: 15px;
+  margin: 0.9375rem;
 }
 
 .card > .row > .description {
@@ -60,17 +60,17 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  height: 80px;
-  width: 520px;
+  height: 5rem;
+  width: 32.5rem;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(1.875rem);
   transition-delay: 0.3s;
   transition: all 0.3s ease;
 }
 
 .description p {
   color: #b0b0ba;
-  padding-top: 5px;
+  padding-top: 0.3125rem;
 }
 
 .description h4 {
@@ -83,7 +83,7 @@ input {
 }
 
 input:checked + label {
-  width: 600px;
+  width: 37.5rem;
 }
 
 input:checked + label .description {
@@ -92,7 +92,7 @@ input:checked + label .description {
 }
 
 .card {
-  background-size: 600px 400px;
+  background-size: 37.5rem 25rem;
 }
 
 .card[for="c1"] {
